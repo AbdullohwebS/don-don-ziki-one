@@ -1466,64 +1466,8 @@ html {
   grid-column: span 2 / span 2;
 }
 
-.m-0 {
-  margin: 0px;
-}
-
-.m-\[\] {
-  margin: ;
-}
-
-.m-\[150px\] {
-  margin: 150px;
-}
-
 .m-\[130px\] {
   margin: 130px;
-}
-
-.m-\[140px\] {
-  margin: 140px;
-}
-
-.m-\[135px\] {
-  margin: 135px;
-}
-
-.m-\[13px\] {
-  margin: 13px;
-}
-
-.m-\[200px\] {
-  margin: 200px;
-}
-
-.m-\[230px\] {
-  margin: 230px;
-}
-
-.m-\[1-00px\] {
-  margin: 1-00px;
-}
-
-.m-\[100px\] {
-  margin: 100px;
-}
-
-.m-\[110px\] {
-  margin: 110px;
-}
-
-.m-\[90px\] {
-  margin: 90px;
-}
-
-.m-\[80px\] {
-  margin: 80px;
-}
-
-.m-\[60px\] {
-  margin: 60px;
 }
 
 .m-\[50px\] {
@@ -1551,14 +1495,6 @@ html {
   display: none;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.max-h-full {
-  max-height: 100%;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1569,10 +1505,6 @@ html {
 
 .max-w-\[476px\] {
   max-width: 476px;
-}
-
-.max-w-full {
-  max-width: 100%;
 }
 
 .grid-cols-2 {
@@ -1595,16 +1527,12 @@ html {
   justify-content: center;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-x-20 {
@@ -1651,10 +1579,6 @@ html {
   background-repeat: no-repeat;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-10 {
   padding: 2.5rem;
 }
@@ -1662,10 +1586,6 @@ html {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
 }
 
 .text-lg {
