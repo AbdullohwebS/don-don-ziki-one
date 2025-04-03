@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  class="bg-gradient-to-br from-[#1F3757] to-[#131537] min-h-screen"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scessors</title>
+    <link rel="stylesheet" href="css/output.css" />
+  </head>
+  <body>
+    <!-- modal  -->
+
+    <div class="flex justify-end p-10">
+      <button class="btn" onclick="my_modal_3.showModal()">RULES</button>
+      <dialog id="my_modal_3" class="modal">
+        <div class="modal-box bg-[#FFFFFF]">
+          <form method="dialog">
+            <button
+              class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+            >
+              ✕
+            </button>
+          </form>
+          <h3 class="font-bold text-lg text-[#3B4262]">RULES</h3>
+          <img
+            class="py-4 flex items-center justify-center m-auto"
+            src="img/rule-basic.svg"
+            alt=""
+          />
+        </div>
+      </dialog>
+    </div>
+
+    <!-- Section one  -->
+    <section id="gameZone">
+      <div
+        class="max-w-[476px] w-full mx-auto bg-triangel bg-no-repeat bg-center m-[50px]"
+      >
+        <ul class="grid grid-cols-2 gap-x-20 gap-y-24">
+          <li>
+            <button class="js-hand">
+              <img src="img/paper.svg" alt="paper" width="198" height="203" />
+            </button>
+          </li>
+          <li>
+            <button class="js-hand">
+              <img src="img/rock.svg" alt="rock" width="198" height="203" />
+            </button>
+          </li>
+          <li class="col-span-2 place-self-center">
+            <button class="js-hand">
+              <img
+                src="img/scissors.svg"
+                alt="scissors"
+                width="198"
+                height="203"
+              />
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section two  -->
+    <section class="hidden" id="secondGameZone">
+      <div class="flex items-center m-[130px] justify-center gap-10">
+        <img src="img/paper.svg" id="user" width="198" height="203" alt="" />
+        <div class="flex flex-col items-center gap-4">
+          <strong id="status"></strong>
+          <button id="refresh" class="btn btn-outline btn-success">
+            Play Again
+          </button>
+        </div>
+        <img
+          src="img/hand-load.svg"
+          width="198"
+          height="203"
+          id="robot"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
